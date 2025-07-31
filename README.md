@@ -2,7 +2,7 @@
 Blackjack mini game for windows powershell.
 ** Copy & Paste in your Powershell terminal **
 
-function Get-Card {
+``` function Get-Card {
     $values = @(2..10 + 10 + 10 + 11) # J, Q, K = 10, A = 11
     $suits = @("♠", "♥", "♦", "♣")
     $value = $values | Get-Random
@@ -101,3 +101,4 @@ do {
 } while ($again -eq 'y')
 
 Write-Host "`nThanks for playing PowerShell Blackjack!" -ForegroundColor Magenta
+```
