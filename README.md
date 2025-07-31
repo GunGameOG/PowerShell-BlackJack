@@ -1,5 +1,7 @@
 # PowerShell-BlackJack
 Blackjack mini game for windows powershell.
+<img width="1482" height="762" alt="image" src="https://github.com/user-attachments/assets/874eb52a-7e41-49ce-a8cf-e46676e3ac1d" />
+
 ** Copy & Paste in your Powershell terminal **
 ```
  function Get-Card {
